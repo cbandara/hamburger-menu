@@ -31,7 +31,7 @@ class App extends React.Component {
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
         <main style={{ marginTop: '64px' }}>
-          <p>Main Page Content</p>
+          <p>Resize to mobile to view hamburger menu</p>
         </main>
 
       </div>
