@@ -8,7 +8,8 @@ class Menu extends React.Component {
     return (
       <header className="menu">
         <nav className="menu__navigation">
-          <div><HamburgerToggleButton></HamburgerToggleButton></div>
+          <div className="menu__toggle-button">
+            <HamburgerToggleButton click={this.props.drawerClickHandler}></HamburgerToggleButton></div>
           <div className="menu__logo"><a href="/">The Logo</a></div>
           <div className="spacer"></div>
           <div className="menu_navigation_items">

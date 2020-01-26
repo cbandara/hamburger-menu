@@ -5,7 +5,7 @@ class HamburgerToggleButton extends React.Component {
 
   render() {
     return (
-      <button className="toggle-button">
+      <button className="toggle-button" onClick={this.props.click}>
         <div className="toggle__line"></div>
         <div className="toggle__line"></div>
         <div className="toggle__line"></div>

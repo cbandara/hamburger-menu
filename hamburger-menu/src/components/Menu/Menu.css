@@ -48,3 +48,19 @@
 .spacer {
   flex: 1;
 }
+
+@media (max-width: 768px) {
+  .menu_navigation_items {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .menu__toggle-button {
+    display: none;
+  }
+
+  .menu__logo {
+    margin-left: 0;
+  }
+}
