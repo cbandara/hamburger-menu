@@ -5,6 +5,7 @@
   position: fixed;
   background: #521751;
   height: 56px;
+  z-index: 100;
 }
 .menu__logo {
   margin-left: 1rem;

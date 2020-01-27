@@ -26,13 +26,16 @@ class App extends React.Component {
       backdrop = <Backdrop click={this.backdropClickHandler}></Backdrop>
     }
     return (
-      <div style={{ height: '100%' }}>
+      <div className="flex-wrapper">
         <Menu drawerClickHandler={this.drawerToggleClickHandler} ></Menu>
-        <SideDrawer show={this.state.sideDrawerOpen} />
-        {backdrop}
-        <main style={{ marginTop: '64px' }}>
-          <p>Resize to mobile to view hamburger menu</p>
-        </main>
+        <div classname="flex-wrapper">
+          <SideDrawer show={this.state.sideDrawerOpen} />
+          {backdrop}
+          <main className="content">
+            <p>Resize to mobile to view hamburger menu</p>
+          </main>
+        </div>
+
 
       </div>
     );
