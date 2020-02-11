@@ -1,3 +1,12 @@
+## Documentation
+
+This app can be used as a template by anyone to create a simple, reusable navigation sidebar. This nav sidebar is static in the desktop view and pulls out via a hamburger icon in the mobile view. If you wish to implement it differently, it can be easily done with changes to the media queries in SideDrawer.css, Backdrop.css, and Menu.css
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
